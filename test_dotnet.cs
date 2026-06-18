@@ -108,6 +108,7 @@ public class VulnerableController : ControllerBase
     }
 
     // 10. Information Disclosure
+    // 11. Information Disclosure
     [HttpGet("error")]
     public string Error()
     {
